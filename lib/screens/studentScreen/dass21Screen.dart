@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:floating_bubbles/floating_bubbles.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:http/http.dart' as http;
 import 'package:flutter/material.dart';
@@ -100,6 +101,20 @@ class _DASS21ScreenState extends State<DASS21Screen> {
                   image: DecorationImage(
                       image: AssetImage('assets/images/Normal Screen.png'),
                       fit: BoxFit.cover))),
+          Positioned.fill(
+            child: FloatingBubbles.alwaysRepeating(
+              noOfBubbles: 50,
+              colorsOfBubbles: const [
+                Colors.white,
+                Colors.red,
+              ],
+              sizeFactor: 0.2,
+              opacity: 60,
+              speed: BubbleSpeed.slow,
+              paintingStyle: PaintingStyle.fill,
+              shape: BubbleShape.circle, //This is the default
+            ),
+          ),
           Padding(
               padding: const EdgeInsets.all(16.0),
               child: Form(

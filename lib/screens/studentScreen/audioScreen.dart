@@ -30,20 +30,20 @@ class _MusicPlayerState extends State<MusicPlayer> {
           url:
               "https://drive.google.com/uc?id=1nzkNZ9r2SWWn86NTDykEkCj4HosAgfGb",
           image:
-              "https://drive.google.com/uc?id=1FAWQUNRdyg7XpUMAimlfnqezdWqwpgMy"),
+              "https://drive.google.com/uc?id=1wUGFIsVxz3XV_kyg-5JO-TWhjzzNy8Jt"),
       Musics(
         title: "Five minutes Breathing",
         singer: "Dr Cheryl Rezek",
         url: "https://drive.google.com/uc?id=1EwJk4AIeiG0rGahi72Xq_oL6rhbfdpYS",
         image:
-            "https://drive.google.com/uc?id=1S2ywmdn_2dZUn2ioT9S_qSRk4OmjhNwN",
+            "https://drive.google.com/uc?id=1JUGIxNfQuO0Ay6xvV6DtcGWnqkVZ2FdB",
       ),
       Musics(
         title: "Sitting meditation",
         singer: "Kieran Fleck",
         url: "https://drive.google.com/uc?id=1xUdzMOWfUPxvCmHpVXF2yAaYa0A8WlKw",
         image:
-            "https://drive.google.com/uc?id=1u9ec81lw4kjEb-PG8EQIkq7fTAfyAj6O",
+            "https://drive.google.com/uc?id=1HI5IN8QxSXeKcIDLIDsYNCiL3-zNIQ9-",
       ),
       Musics(
           title: "Mountain meditation",
@@ -51,43 +51,49 @@ class _MusicPlayerState extends State<MusicPlayer> {
           url:
               "https://drive.google.com/uc?id=1wAIv7C9qdfvQrHlybtV9bbqkdIZTQXI1",
           image:
-              "https://drive.google.com/uc?id=1FAWQUNRdyg7XpUMAimlfnqezdWqwpgMy"),
+              "https://drive.google.com/uc?id=1rEfHZcrmlVcZQXITCf2zKxorOuRY-N4-"),
       Musics(
-          title: "Sugar",
-          singer: "Adele",
-          url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+          title: "The Breathing Space",
+          singer: "Vidyamala Burch",
+          url:
+              "https://drive.google.com/uc?id=19cCxG03o26RJB57g4xMUdyoDQlvaK8vS",
           image:
-              "https://img.mensxp.com/media/content/2020/Apr/Leading-B-Wood-Singers-Who-Lost-On-Reality-Shows7_5ea7d4db364a2.jpeg"),
+              "https://drive.google.com/uc?id=1NUqqvvNNuZylRoWBx0wYDmKDlAXV09Rg"),
       Musics(
-          title: "Believer",
-          singer: "Ed Sheeran",
-          url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+          title: "Tension Release Meditation",
+          singer: "Vidyamala Burch",
+          url:
+              "https://drive.google.com/uc?id=1dcsW9byG8G4Gyb1hFvtFS27LnrBdfvDA",
           image:
-              "https://img.mensxp.com/media/content/2020/Apr/Leading-B-Wood-Singers-Who-Lost-On-Reality-Shows6_5ea7d4c7225c1.jpeg"),
+              "https://drive.google.com/uc?id=1CycbHN9-m1CgF-Kid-g-ELoKJ3Z-mkSU"),
       Musics(
-          title: "Stressed out",
-          singer: "Mark Ronson",
-          url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
-          image:
-              "https://i.pinimg.com/originals/7c/a1/08/7ca1080bde6228e9fb8460915d36efdd.jpg"),
+        title: "Body scan",
+        singer: "Kieran Fleck",
+        url: "https://drive.google.com/uc?id=1MJg3N9e-EjHKrjHAbxHWgsBJJPR0Am4-",
+        image:
+            "https://drive.google.com/uc?id=1wJOr4o2EdB4lc77sWOgry_cEs2sZGFMT",
+      ),
       Musics(
-          title: "Girls Like You",
-          singer: "Maroon 5",
-          url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+          title: "Compassionate Breath",
+          singer: "Vidyamala Burch",
+          url:
+              "https://drive.google.com/uc?id=1toFaicXEpAKaUoDxqWnpg1l3FT137ifw",
           image:
-              "https://i.pinimg.com/originals/1b/b8/55/1bb8552249faa2f89ffa0d762d87088d.jpg"),
+              "https://drive.google.com/uc?id=1YktMeYZAgziTJDSXEe5FVcX11nTpMdw6"),
       Musics(
-          title: "Let her go",
-          singer: "Passenger",
-          url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+          title: "Ten minute breathing",
+          singer: "Peter Morgan",
+          url:
+              "https://drive.google.com/uc?id=1nzkNZ9r2SWWn86NTDykEkCj4HosAgfGb",
           image:
-              "https://64.media.tumblr.com/5b7c0f14e4e50922ccc024573078db42/15bda826b481de6f-5a/s1280x1920/b26b182f789ef7bb7be15b037e2e687b0fbc437d.jpg"),
+              "https://drive.google.com/uc?id=13fAhTQ4NvfKgmTNsw8vOIZ-jpQyZsZzX"),
       Musics(
-          title: "Roar",
-          singer: "Katy Perry",
-          url: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+          title: "Three minute mindfulness of sounds",
+          singer: "Peter Morgan",
+          url:
+              "https://drive.google.com/uc?id=1gYU6ayzOSzZZtEAlfGJ3BlFmFt73zb9m",
           image:
-              "https://cdn2.stylecraze.com/wp-content/uploads/2013/11/Jesus-On-Her-Wrist.jpg.webp"),
+              "https://drive.google.com/uc?id=18NpX95vbh2v2FcQ3quA27w0zfMF99a5I"),
     ];
   }
 

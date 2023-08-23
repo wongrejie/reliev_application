@@ -1,3 +1,4 @@
+import 'package:floating_bubbles/floating_bubbles.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_radar_chart/flutter_radar_chart.dart';
 
@@ -84,6 +85,20 @@ class _ResultScreenState extends State<ResultScreen> {
                   image: DecorationImage(
                       image: AssetImage('assets/images/Normal Screen.png'),
                       fit: BoxFit.cover))),
+          Positioned.fill(
+            child: FloatingBubbles.alwaysRepeating(
+              noOfBubbles: 50,
+              colorsOfBubbles: const [
+                Colors.white,
+                Colors.red,
+              ],
+              sizeFactor: 0.2,
+              opacity: 60,
+              speed: BubbleSpeed.slow,
+              paintingStyle: PaintingStyle.fill,
+              shape: BubbleShape.circle, //This is the default
+            ),
+          ),
           SingleChildScrollView(
             child: Column(
               children: [
